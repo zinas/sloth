@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<templates>
+    <template>
+        <type>CONTAINER</type>
+        <name>{{camelCase}}</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="Web">
+                <value type="string">containers/{{dashed}}</value>
+            </property>
+            <property name="BundleName">
+                <value type="string">backbase.com.launchpad</value>
+            </property>
+            <property name="DefaultDevice">
+                <value type="string">Web</value>
+            </property>
+            <property name="title">
+                <value type="string">{{title}}</value>
+            </property>
+        </properties>
+    </template>
+</templates>

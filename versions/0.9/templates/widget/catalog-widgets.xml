@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widgets>
+    <widget>
+        <name>widget-{{dashed}}</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/backbase.com.launchpad/widgets/{{dashed}}/index.html</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="title" viewHint="user,designModeOnly">
+                <value type="string">{{title}}</value>
+            </property>
+            <property name="title.localized">
+                <value type="string">portal.widget.login-widget.title</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+        </properties>
+        <tags>
+            <tag>Simple Banking 2.0</tag>
+        </tags>
+        <securityProfile>ADMIN</securityProfile>
+    </widget>
+</widgets>
